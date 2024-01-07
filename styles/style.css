@@ -133,3 +133,41 @@ header {
     /* 145.833% */
     text-decoration-line: underline;
 }
+
+.sec-content {
+    padding: 86px 232px 86px 317px;
+    width: auto;
+    height: 200px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+    gap: 30px;
+
+}
+
+.section-third {
+    width: 70% ;
+    max-width: 1440px;
+    margin: 0 auto;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    text-align: center;
+
+}
+
+.icon .icon-png img {
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+}
+
+.sec-content p {
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 10px;
+    font-weight: 200;
+    line-height: 35px;
+    /* 145.833% */
+}
